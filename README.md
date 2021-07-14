@@ -1,5 +1,14 @@
 # PSG SR 2 App Standardization
 
+```sh
+composer require psg/sr2
+```
+
+```php
+class App implements Psg\Sr2\LayeredApp{}
+```
+
+
 ## Concepts
 __Types__
 -	Beforeware : outerware for setting of configuration
